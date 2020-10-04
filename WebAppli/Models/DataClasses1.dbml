@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Demo" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=Demo;User ID=sa;MultipleActiveResultSets=True;Application Name=EntityFramework" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DemoConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.vwPost" Member="vwPosts">
+    <Type Name="vwPost">
+      <Column Name="Post" Type="System.String" DbType="NVarChar(134)" CanBeNull="true" />
+      <Column Name="Comment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[User]" Member="User" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="[Like]" Member="Like" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Unlike" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
